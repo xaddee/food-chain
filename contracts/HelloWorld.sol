@@ -1,8 +1,8 @@
-pragma solidity ^0.4.4;
+pragma solidity ^0.5.16;
 
 contract HelloWorld
 {
-    function SayHello() return (string)
+    function SayHello() public returns (string memory)
     {
         return "Hello World!";
     }
