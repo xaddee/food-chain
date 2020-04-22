@@ -1,5 +1,5 @@
-var HelloWorld = artifacts.require("./HelloWorld.sol");
+var FoodSafe = artifacts.require("contracts/Foodchain.sol");
 module.exports = function(deployer) {
 
-    deployer.deploy(HelloWorld);
+    deployer.deploy(FoodSafe);
 }
